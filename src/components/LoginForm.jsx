@@ -57,6 +57,7 @@ export default function LoginForm() {
                     type="email"
                     name="email"
                     placeholder="Correo"
+                    value={form.email}
                     onChange={handleChange}
                     required
                 />
@@ -65,6 +66,7 @@ export default function LoginForm() {
                     type="password"
                     name="password"
                     placeholder="Contraseña"
+                    value={form.password}
                     onChange={handleChange}
                     required
                 />
